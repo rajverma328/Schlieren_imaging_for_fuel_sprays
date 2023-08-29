@@ -1,0 +1,48 @@
+#Camera Information Header
+Date : 2022/11/8
+Time : 11:41
+Camera Type : FASTCAM SA1.1 model 675K-C1
+Head Type : Unknown Child Device
+Camera ID : 0
+Camera Number : 0
+Head Number : 1
+Max Head Number : 1
+Scene Name : 
+User Defined Camera Name : Camera No.1
+Session Number : 
+Record Rate(fps) : 15000
+Shutter Speed(s) : 1/415000
+Trigger Mode : Start
+Color Temperature : 5100K
+Color Balance R : 1104
+Color Balance G : 1024
+Color Balance B : 1281
+Original Total Frame : 14552
+Total Frame : 121
+Start Frame : 80
+Correct Trigger Frame : 0
+Save Step : 1
+Image Width : 768
+Image Height : 512
+Color Type : Color
+Color Bit : 24
+File Format : Tiff
+EffectiveBit Depth : 12
+EffectiveBit Side : Lower
+Comment Text : 
+Zero Frame : Exist
+Edge Enhance : 0
+Color Matrix R : 1152:173:-301
+Color Matrix G : -313:1636:-299
+Color Matrix B : -53:-1006:2083
+Color Enhance : 2
+Pre LUT Mode : DEF1
+Pre LUT Brightness : 0
+Pre LUT Contrast : 0
+Pre LUT Gain : 1.0
+Pre LUT Gamma : 1.00
+Pre LUT PosiNega : Posi
+DS Shutter : Value 0
+Not Use : 
+Not Use : 
+Not Use : 
