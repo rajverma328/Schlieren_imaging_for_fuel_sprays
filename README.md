@@ -1,7 +1,7 @@
 # Schlieren_imaging_for_fuel_sprays
 
 [![GitHub issues](https://img.shields.io/github/issues/rajverma328/Schlieren_imaging_for_fuel_sprays)](https://github.com/rajverma328/Schlieren_imaging_for_fuel_sprays/issues)
-[![GitHub forks](https://img.shields.io/github/forks/rajverma328/Schlieren_imaging_for_fuel_spray)](https://github.com/rajverma328/Schlieren_imaging_for_fuel_sprays/network)
+[![GitHub forks](https://img.shields.io/github/forks/rajverma328/Schlieren_imaging_for_fuel_sprays)](https://github.com/rajverma328/Schlieren_imaging_for_fuel_sprays/network)
 [![GitHub stars](https://img.shields.io/github/stars/rajverma328/Schlieren_imaging_for_fuel_sprays)](https://github.com/rajverma328/Schlieren_imaging_for_fuel_sprays/stargazers)
 
 This code is designed and written to process the Schlieren images of Hydrogen and CNG fuel sprays under a given set of ambient pressure and fuel injection pressure
