@@ -9,7 +9,7 @@ r1 = 0;
 prompt = {'Enter length calibration factor (mm/pixel)','Enter frame rate in f.p.s.','Enter threshold senstivity','enter circle distance value(pixels)'};
 dlgtitle = 'Input';
 dims = [1 50];
-definput = {'0.2008','15000','5','450'};  %(197/7.5)^-1 as provided
+definput = {'0.2008','15000','7','450'};  %(197/7.5)^-1 as provided
 answer = inputdlg(prompt,dlgtitle,dims,definput);
 calibration_factor = str2double(answer(1));
 frame_rate = str2double(answer(2));
@@ -212,24 +212,24 @@ for index = 1:l2
             i = i+2;
         end
         
-        xlswrite(string(xcl),mean(tavg')',sheet,string(cell2mat(cola4(1))));
-        xlswrite(string(xcl),std(tavg,0,2),sheet,string(cell2mat(cola4(2))));
-        xlswrite(string(xcl),mean(areaavg')',sheet,string(cell2mat(cola4(3))));
-        xlswrite(string(xcl),std(areaavg,0,2),sheet,string(cell2mat(cola4(4))));
-        xlswrite(string(xcl),mean(area_speedavg')',sheet,string(cell2mat(cola4(5))));
-        xlswrite(string(xcl),std(area_speedavg,0,2),sheet,string(cell2mat(cola4(6))));
-        xlswrite(string(xcl),mean(periavg')',sheet,string(cell2mat(cola4(7))));
-        xlswrite(string(xcl),std(periavg,0,2),sheet,string(cell2mat(cola4(8))));
-        xlswrite(string(xcl),mean(peri_speedavg')',sheet,string(cell2mat(cola4(9))));
-        xlswrite(string(xcl),std(peri_speedavg,0,2),sheet,string(cell2mat(cola4(10))));
-        xlswrite(string(xcl),mean(ypavg')',sheet,string(cell2mat(cola4(11))));
-        xlswrite(string(xcl),std(ypavg,0,2),sheet,string(cell2mat(cola4(12))));
-        xlswrite(string(xcl),mean(speedypavg')',sheet,string(cell2mat(cola4(13))));
-        xlswrite(string(xcl),std(speedypavg,0,2),sheet,string(cell2mat(cola4(14))));
-        xlswrite(string(xcl),mean(wavg')',sheet,string(cell2mat(cola4(15))));
-        xlswrite(string(xcl),std(wavg,0,2),sheet,string(cell2mat(cola4(16))));
-        xlswrite(string(xcl),mean(CAavg')',sheet,string(cell2mat(cola4(17)))); %% The Cone Angle implementation
-        xlswrite(string(xcl),std(CAavg,0,2),sheet,string(cell2mat(cola4(18))));
+        xlswrite(string(xcl),mean(tavg')',sheet,string(cell2mat(cola4h(1))));
+        xlswrite(string(xcl),std(tavg,0,2),sheet,string(cell2mat(cola4h(2))));
+        xlswrite(string(xcl),mean(areaavg')',sheet,string(cell2mat(cola4h(3))));
+        xlswrite(string(xcl),std(areaavg,0,2),sheet,string(cell2mat(cola4h(4))));
+        xlswrite(string(xcl),mean(area_speedavg')',sheet,string(cell2mat(cola4h(5))));
+        xlswrite(string(xcl),std(area_speedavg,0,2),sheet,string(cell2mat(cola4h(6))));
+        xlswrite(string(xcl),mean(periavg')',sheet,string(cell2mat(cola4h(7))));
+        xlswrite(string(xcl),std(periavg,0,2),sheet,string(cell2mat(cola4h(8))));
+        xlswrite(string(xcl),mean(peri_speedavg')',sheet,string(cell2mat(cola4h(9))));
+        xlswrite(string(xcl),std(peri_speedavg,0,2),sheet,string(cell2mat(cola4h(10))));
+        xlswrite(string(xcl),mean(ypavg')',sheet,string(cell2mat(cola4h(11))));
+        xlswrite(string(xcl),std(ypavg,0,2),sheet,string(cell2mat(cola4h(12))));
+        xlswrite(string(xcl),mean(speedypavg')',sheet,string(cell2mat(cola4h(13))));
+        xlswrite(string(xcl),std(speedypavg,0,2),sheet,string(cell2mat(cola4h(14))));
+        xlswrite(string(xcl),mean(wavg')',sheet,string(cell2mat(cola4h(15))));
+        xlswrite(string(xcl),std(wavg,0,2),sheet,string(cell2mat(cola4h(16))));
+        xlswrite(string(xcl),mean(CAavg')',sheet,string(cell2mat(cola4h(17)))); %% The Cone Angle implementation
+        xlswrite(string(xcl),std(CAavg,0,2),sheet,string(cell2mat(cola4h(18))));
 
         disp("........................sheet completed........................")
     end
