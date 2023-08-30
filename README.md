@@ -25,7 +25,7 @@ Clone the repository:
 
    ```sh
    git clone https://github.com/rajverma328/Schlieren_imaging_for_fuel_sprays.git
-
+   ```
 ## Usage
 
 1. Set the parameters of the process as per your requirements
